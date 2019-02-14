@@ -17,9 +17,9 @@ def index():
 def wzkinfo():
     return "王增科的个主页"
 
-@app.route("/zyp")
+@app.route("/ljk")
 def zypinfo():
-    return "张宇鹏的个主页"
+    return "李江坤的个主页"
 
 @app.route("/wzk/pay")
 def wzkpay():
